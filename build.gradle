@@ -12,7 +12,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
 android {
-    namespace "io.github.yourname.openssl"
+    namespace "io.github.pavloemurgo.openssl"
     compileSdk 34
 
     defaultConfig {
@@ -30,7 +30,7 @@ publishing {
     publications {
         mavenRelease(MavenPublication) {
             artifact("$buildDir/outputs/aar/openssl-release.aar")
-            groupId = "io.github.yourname"
+            groupId = "io.github.pavloemurgo"
             artifactId = "openssl"
             version = "3.3.2-android16k"
         }
