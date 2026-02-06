@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest9443464443478407993.xml:2:13-83
+INJECTED from /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest9443464443478407993.xml:2:13-83
+	package
+		INJECTED from /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest9443464443478407993.xml
+	xmlns:android
+		ADDED from /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest9443464443478407993.xml:2:23-81
+uses-sdk
+INJECTED from /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest9443464443478407993.xml reason: use-sdk injection requested
+INJECTED from /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest9443464443478407993.xml
+INJECTED from /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest9443464443478407993.xml
+	android:targetSdkVersion
+		INJECTED from /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest9443464443478407993.xml
+	android:minSdkVersion
+		INJECTED from /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest9443464443478407993.xml
