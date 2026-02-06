@@ -29,10 +29,20 @@ android {
 publishing {
     publications {
         mavenRelease(MavenPublication) {
-            artifact("$buildDir/outputs/aar/openssl-release.aar")
+            artifact("$buildDir/outputs/aar/openssl-aar-release.aar")
             groupId = "io.github.pavloemurgo"
             artifactId = "openssl"
             version = "3.3.2-android16k"
+        }
+    }
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/pavloemurgo/openssl-aar")
+            credentials {
+                username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")
+                password = project.findProperty("gpr.token") ?: System.getenv("GITHUB_TOKEN")
+            }
         }
     }
 }

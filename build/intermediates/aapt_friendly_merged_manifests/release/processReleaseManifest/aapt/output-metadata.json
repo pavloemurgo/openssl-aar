@@ -4,7 +4,7 @@
     "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "io.github.yourname.openssl",
+  "applicationId": "io.github.pavloemurgo.openssl",
   "variantName": "release",
   "elements": [
     {
