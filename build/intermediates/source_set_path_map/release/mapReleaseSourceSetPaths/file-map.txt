@@ -1,7 +1,0 @@
-io.github.pavloemurgo.openssl-pngs-0 /Users/emurgopavlo/openssl-android/openssl-aar/build/generated/res/pngs/release
-io.github.pavloemurgo.openssl-resValues-1 /Users/emurgopavlo/openssl-android/openssl-aar/build/generated/res/resValues/release
-io.github.pavloemurgo.openssl-mergeReleaseResources-2 /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.github.pavloemurgo.openssl-mergeReleaseResources-3 /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.github.pavloemurgo.openssl-release-4 /Users/emurgopavlo/openssl-android/openssl-aar/build/intermediates/merged_res/release/mergeReleaseResources
-io.github.pavloemurgo.openssl-main-5 /Users/emurgopavlo/openssl-android/openssl-aar/src/main/res
-io.github.pavloemurgo.openssl-release-6 /Users/emurgopavlo/openssl-android/openssl-aar/src/release/res

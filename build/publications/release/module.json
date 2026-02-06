@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.pavloemurgo",
+    "module": "openssl-aar",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "openssl-aar-1.0.0.aar",
+          "url": "openssl-aar-1.0.0.aar",
+          "size": 10156197,
+          "sha512": "a3aee08c4cb1cff52dd60535382f06eae4fea2f0dd2bc90888c7e0fe1debe9e7157fd24648772b3e559358c65780b35d7fb4315b41ed303e32c3ecd845276b00",
+          "sha256": "4f0d707f2418018ba89cbe69cafb1af7fe2d5e1d2a440eeffb769c9321d12c52",
+          "sha1": "2ef566938055a3ff6615b8759c0d99872edce86f",
+          "md5": "ce4cb10780b95e2af74a01de427b983d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openssl-aar-1.0.0.aar",
+          "url": "openssl-aar-1.0.0.aar",
+          "size": 10156197,
+          "sha512": "a3aee08c4cb1cff52dd60535382f06eae4fea2f0dd2bc90888c7e0fe1debe9e7157fd24648772b3e559358c65780b35d7fb4315b41ed303e32c3ecd845276b00",
+          "sha256": "4f0d707f2418018ba89cbe69cafb1af7fe2d5e1d2a440eeffb769c9321d12c52",
+          "sha1": "2ef566938055a3ff6615b8759c0d99872edce86f",
+          "md5": "ce4cb10780b95e2af74a01de427b983d"
+        }
+      ]
+    }
+  ]
+}

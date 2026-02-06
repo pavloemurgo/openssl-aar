@@ -29,23 +29,22 @@ android {
             minifyEnabled false
         }
     }
+
+    publishing {
+        singleVariant("release")
+    }
 }
 
-publishing {
-    publications {
-        mavenRelease(MavenPublication) {
-            artifact("$buildDir/outputs/aar/${project.name}-release.aar")
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
 
-            groupId = "com.github.pavloemurgo"
-            artifactId = "openssl-aar"
-            version = "v3.3.2-jitpack"
+                groupId = "com.github.pavloemurgo"
+                artifactId = "openssl-aar"
+                version = project.findProperty("VERSION") ?: "1.0.0"
+            }
         }
     }
-
-    repositories {
-    }
-}
-
-tasks.withType(PublishToMavenRepository) {
-    dependsOn 'assembleRelease'
 }
