@@ -1,15 +1,7 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:8.3.2'
-    }
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
 }
-
-apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
 
 android {
     namespace "io.github.pavloemurgo.openssl"
@@ -30,24 +22,9 @@ publishing {
     publications {
         mavenRelease(MavenPublication) {
             artifact("$buildDir/outputs/aar/openssl-aar-release.aar")
-            groupId = "io.github.pavloemurgo"
-            artifactId = "openssl"
-            version = "3.3.2-android16k"
+            groupId = "com.github.pavloemurgo"
+            artifactId = "openssl-aar"
+            version = "v3.3.2-jitpack"
         }
     }
-    repositories {
-        maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/pavloemurgo/openssl-aar")
-            credentials {
-                username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")
-                password = project.findProperty("gpr.token") ?: System.getenv("GITHUB_TOKEN")
-            }
-        }
-    }
-}
-
-repositories {
-    google()
-    mavenCentral()
 }
