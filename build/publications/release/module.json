@@ -26,11 +26,11 @@
         {
           "name": "openssl-aar-1.0.0.aar",
           "url": "openssl-aar-1.0.0.aar",
-          "size": 10156197,
-          "sha512": "a3aee08c4cb1cff52dd60535382f06eae4fea2f0dd2bc90888c7e0fe1debe9e7157fd24648772b3e559358c65780b35d7fb4315b41ed303e32c3ecd845276b00",
-          "sha256": "4f0d707f2418018ba89cbe69cafb1af7fe2d5e1d2a440eeffb769c9321d12c52",
-          "sha1": "2ef566938055a3ff6615b8759c0d99872edce86f",
-          "md5": "ce4cb10780b95e2af74a01de427b983d"
+          "size": 20870411,
+          "sha512": "3610980cd507319bed4c7dd4743a35b99b90bd0fc2e967064db024306a1e4923b854af1b53f783b1b342bfb5ee77947b54c08c1103f7e87cfd5c5152ce2d303b",
+          "sha256": "1ecf3e23254c0b5746b0ce9d5a595fa20ecb7befafe42c221f05030439e74d20",
+          "sha1": "ab0621fc5838a370f8484dcd4c30ab169151c7f4",
+          "md5": "2c8837ad9b8c383595fbf77d9ac59419"
         }
       ]
     },
@@ -46,11 +46,11 @@
         {
           "name": "openssl-aar-1.0.0.aar",
           "url": "openssl-aar-1.0.0.aar",
-          "size": 10156197,
-          "sha512": "a3aee08c4cb1cff52dd60535382f06eae4fea2f0dd2bc90888c7e0fe1debe9e7157fd24648772b3e559358c65780b35d7fb4315b41ed303e32c3ecd845276b00",
-          "sha256": "4f0d707f2418018ba89cbe69cafb1af7fe2d5e1d2a440eeffb769c9321d12c52",
-          "sha1": "2ef566938055a3ff6615b8759c0d99872edce86f",
-          "md5": "ce4cb10780b95e2af74a01de427b983d"
+          "size": 20870411,
+          "sha512": "3610980cd507319bed4c7dd4743a35b99b90bd0fc2e967064db024306a1e4923b854af1b53f783b1b342bfb5ee77947b54c08c1103f7e87cfd5c5152ce2d303b",
+          "sha256": "1ecf3e23254c0b5746b0ce9d5a595fa20ecb7befafe42c221f05030439e74d20",
+          "sha1": "ab0621fc5838a370f8484dcd4c30ab169151c7f4",
+          "md5": "2c8837ad9b8c383595fbf77d9ac59419"
         }
       ]
     }

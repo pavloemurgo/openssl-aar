@@ -35,6 +35,16 @@ android {
     }
 }
 
+// Include prefab directory in the AAR for pre-built native libraries
+android.libraryVariants.all { variant ->
+    def variantName = variant.name.capitalize()
+    tasks.named("bundle${variantName}Aar").configure {
+        from("src/main/prefab") {
+            into "prefab"
+        }
+    }
+}
+
 afterEvaluate {
     publishing {
         publications {
